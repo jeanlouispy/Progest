@@ -47,5 +47,17 @@ namespace Progest
             {
             }
         }
+
+        public Contact Contact
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
     }
 }

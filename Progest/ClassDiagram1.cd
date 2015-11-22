@@ -81,11 +81,14 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Progest.Note">
-    <Position X="5" Y="8.75" Width="1.5" />
+    <Position X="4.75" Y="9" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAgAAAEAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
-      <FileName>Note.cs</FileName>
+      <HashCode>AAAAAAAAAgAAAEAACAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Note.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Contact" />
+    </ShowAsAssociation>
   </Class>
   <Enum Name="Progest.FeatureType">
     <Position X="12.25" Y="3.5" Width="1.5" />
