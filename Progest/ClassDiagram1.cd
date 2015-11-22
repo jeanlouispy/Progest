@@ -44,7 +44,9 @@
     <AssociationLine Name="Software" Type="Progest.Software" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
         <Point X="8" Y="3.75" />
-        <Point X="6.25" Y="3.75" />
+        <Point X="7.125" Y="3.75" />
+        <Point X="7.125" Y="3.87" />
+        <Point X="6.25" Y="3.87" />
       </Path>
     </AssociationLine>
     <AssociationLine Name="Applicant" Type="Progest.Contact" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
@@ -89,6 +91,13 @@
     <ShowAsAssociation>
       <Property Name="Contact" />
     </ShowAsAssociation>
+  </Class>
+  <Class Name="Progest.Application">
+    <Position X="1.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAABABAAAAAAAAAAAKAAAA=</HashCode>
+      <FileName>Application.cs</FileName>
+    </TypeIdentifier>
   </Class>
   <Enum Name="Progest.FeatureType">
     <Position X="12.25" Y="3.5" Width="1.5" />
